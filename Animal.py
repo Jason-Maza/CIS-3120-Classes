@@ -8,13 +8,13 @@ class Animal:
         print("hello, I am", self.__name)
         
     def food(self):
-        print("Crunch", self.__food)
+        print("I Crunch", self.__food)
     
     def sleep(self):
-       print("zzz", self.__sleep)
+       print("I sleep", self.__sleep)
 
     def drink(self):
-       print("slurp", self.__drink)
+       print("I slurp", self.__drink)
     
     def hunt(self):
        print("I Hunt", self.__hunt)
